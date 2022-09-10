@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/CSS/bubbles.css">
+    <link rel="stylesheet" href="/CSS/carousel.css">
+    <link rel="stylesheet" href="/CSS/mousescroll.css">
+    <script src="index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+      <div id="main"> 
+
+        <div class="parallax_background"> 
+
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Appointment</a>
+            <a onclick="document.getElementById('id01').style.display='block'">Login</a>
+            <a onclick="document.getElementById('id02').style.display='block'">Sign Up</a>
+          </div>
+             <!-- The Modal -->
+<div id="id01" class="modal">
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="">
+    <div class="imgcontainer">
+      <img src="/assets/gif/icons8-people.gif" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<div id="id02" class="modal">
+ 
+  <form class="modal-content" action="">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signup">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+      <!-- Use any element to open the sidenav -->
+      <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <script>
+ function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+/* Close/hide the sidenav */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+      </script>
+      <!-- mouse scroll -->
+<div class="mouse_scroll">
+
+  <div class="mouse">
+    <div class="wheel"></div>
+  </div>
+  <div>
+    <span class="m_scroll_arrows unu"></span>
+    <span class="m_scroll_arrows doi"></span>
+    <span class="m_scroll_arrows trei"></span>
+  </div>
+</div>
+<!--bubbles-->
+    <div class="bubbles">
+
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        <img src="/assets/png/bubble.png" alt="bubbles">
+        
+    </div>
+  <!--content-text & about-->         
+</div>
+
+<button class="contactbtn" type="button" name="button">CONTACT</button>
+
+<div class="aboutContainer"> 
+
+<h1 class="aboutus">ABOUT US</h1>
+
+<div class="btnContainer">
+
+  
+
+</div>
+
+
+          <p class="content_text"> 
+            As owner and founder of <strong> Emnauel Pet Grooming</strong> , our groomers is proud to provide thorough grooming services for all sizes and breeds of dogs.
+
+As an experienced professional groomers we understand that you and your dog need to feel comfortable. 
+
+ <p class="content_text"><strong>Emanuel Pet Grooming </strong> is based in a calm and clean home setting in compliance with a relaxed atmosphere, and caters to all your dogs needs. Our groomers offers first rate services that you and your dog are sure to appreciate.
+
+Unleash your dog's wellness and beauty!
+
+Your pet will be treated as one of our own and receive the care and attention your pet deserves.
+
+While your pet is at the grooming shed they will have the time to rest, stretch their legs in the hand santized cage and have a drink of water, so their experience with us is enjoyable.</p> 
+
+          </p> 
+          
+        </div>  
+
+    </div>
+
+    <div class="parallax_background2">
+
+    </div>
+    <!--flip-cards-->
+<h2 style="margin-left: 40.5% ;"> Our Customer Satisfaction</h2>
+        <div class="cardGrid">
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/assets/svg/facebook.svg" alt="Avatar" style="width:100px;height:100px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>John Doe</h1>
+            <p>Architect & Engineer</p>
+            <p>We love that guy</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/assets/svg/facebook.svg" alt="Avatar" style="width:100px;height:100px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>John Doe</h1>
+            <p>Architect & Engineer</p>
+            <p>We love that guy</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/assets/svg/facebook.svg" alt="Avatar" style="width:100px;height:100px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>John Doe</h1>
+            <p>Architect & Engineer</p>
+            <p>We love that guy</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/assets/svg/facebook.svg" alt="Avatar" style="width:100px;height:100px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>John Doe</h1>
+            <p>Architect & Engineer</p>
+            <p>We love that guy</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/assets/svg/facebook.svg" alt="Avatar" style="width:100px;height:100px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>John Doe</h1>
+            <p>Architect & Engineer</p>
+            <p>We love that guy</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/assets/svg/facebook.svg" alt="Avatar" style="width:100px;height:100px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>John Doe</h1>
+            <p>Architect & Engineer</p>
+            <p>We love that guy</p>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+      <div class="cardGrid">
+  
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="/assets/svg/facebook.svg" alt="Avatar" style="width:100px;height:100px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="/assets/svg/facebook.svg" alt="Avatar" style="width:100px;height:100px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="/assets/svg/facebook.svg" alt="Avatar" style="width:100px;height:100px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="/assets/svg/facebook.svg" alt="Avatar" style="width:100px;height:100px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="/assets/svg/facebook.svg" alt="Avatar" style="width:100px;height:100px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="/assets/svg/facebook.svg" alt="Avatar" style="width:100px;height:100px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="parallax_background3">
+
+        </div>
+      
+     <footer>
+      <ul style="list-style: none;">
+        <li><p>(323)-817-9009</p></li>
+        <li> <em>info@emanuelpetgrooming.com</em> </li>
+        <li><address>159 S Sunol Dr, CA 90063</address></li>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13225.527490673092!2d-118.1511277!3d34.0340742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33d2ca041ae08cc9!2sEmanuel%20Pet%20Grooming!5e0!3m2!1sen!2sus!4v1662597404668!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </ul>
+     </footer>
+
+</body>
+</html>
