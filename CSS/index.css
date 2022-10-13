@@ -34,7 +34,7 @@ body{
 .parallax_background3{
   width: 100%;
   height: 50vh;
-  background: url(/assets/img/puppyeyes3.jpg);
+  background: url(/assets/img/worker/worker1.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -65,7 +65,7 @@ body{
 
 .social {
   position: fixed;
-  top: 50px;
+  top: 100px;
 }
 .social a {
   text-decoration: none;
@@ -334,6 +334,75 @@ button.contactbtn{
   text-align: center;
   font-size: 90x;
 }
+.staffContainer{
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 25%;
+  height: 25%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
 
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
 
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.bussinesshours{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  justify-items: auto;
+  
+}
+.bussinesshours>div{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: white;
+  margin-top: 100px;
+
+}
+.monday, .tuesday, 
+.wednesday, .thursday, 
+.friday, .saturday,
+.sunday {
+
+display: flex;
+margin-top: 10px;
+margin-left: 50px;
+}
+.hours{
+  margin-top: 80%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
   
