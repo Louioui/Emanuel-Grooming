@@ -1,6 +1,4 @@
-.flipcardContainer{
-  padding: 2%;
-}
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
@@ -70,10 +68,6 @@ height: auto auto auto auto auto auto;
    height: auto auto auto auto auto auto;
   }
 }
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
