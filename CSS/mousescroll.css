@@ -1,11 +1,37 @@
 .mouse_scroll {
 	display: block;
-	margin: auto auto auto auto;
+	margin: auto;
 	width: 24px;
 	height: 100px;
-	margin-top: 50%;
 }
+@media  screen and (max-width: 1950px) {
+  .mouse_scroll{
+    display: block;
+    margin: auto;
+    width: 24px;
+    height: 100px;
+    margin-top: 44%;
+  }
 
+}
+@media  screen and (max-width: 430px) {
+  .mouse_scroll {
+    display: none;
+  }
+  
+}
+@media  screen and (max-width: 428px) {
+  .mouse_scroll {
+    display: none;
+  }
+  
+}
+@media  screen and (max-width: 414px) {
+  .mouse_scroll {
+    display: none;
+  }
+  
+}
 
 .m_scroll_arrows {
   display: block;
