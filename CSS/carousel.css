@@ -1,4 +1,6 @@
-
+.ocs{
+  text-align: center;
+}
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
@@ -44,32 +46,8 @@
     color: white;
     transform: rotateY(180deg);
   }
-  .cardGrid{
-    display: flex;
-    flex-direction: row;
- }
-@media only screen and (max-width: 600px) {
-  .cardGrid{
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-  .flip-card{
-width: 100% 100% 100% 100% 100% 100%;
-height: auto auto auto auto auto auto;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .cardGrid{
-   display: flex;
-   flex-direction: row;
-}
-.flip-card{
-   width: 100% 100% 100% 100% 100% 100%;
-   height: auto auto auto auto auto auto;
-  }
-}
 
-/* Slideshow container */
+/* Slideshow container images */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
