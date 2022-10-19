@@ -47,6 +47,42 @@
     transform: rotateY(180deg);
   }
 
+  .flipcardContainer{
+    display: flex;
+    flex-direction: row;
+ }
+ @media  screen and (max-width: 430px) {
+  
+ .hiddenCard{
+   display: none;
+ }
+ .flipcardContainer{
+   display: flex;
+   flex-direction: column;
+ }
+  
+}
+@media  screen and (max-width: 428px) {
+ .hiddenCard{
+  display: none;
+}
+.flipcardContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+}
+@media  screen and (max-width: 414px) {
+ .hiddenCard{
+  display: none;
+}
+.flipcardContainer{
+  display: flex;
+  flex-direction: column;
+}
+}
+
+
 /* Slideshow container images */
 .slideshow-container {
   max-width: 1000px;
