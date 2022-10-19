@@ -532,6 +532,9 @@ margin-left: 60px;
 .x{
   margin-left: -40%;
 }
+.xx{
+  margin-right: 25px;
+}
 @media  screen and (max-width: 430px) {
  .googleMaps{
    width: 430px;
