@@ -8,17 +8,15 @@
     <link rel="stylesheet" href="/CSS/bubbles.css">
     <link rel="stylesheet" href="/CSS/carousel.css">
     <link rel="stylesheet" href="/CSS/mousescroll.css">
-
-    <script src="index.js" defer></script>
     
     <title>Document</title>
 </head>
 <body>
       <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-      <div id="main"> 
+      <header id="main"> 
    
         <div class="parallax_background">
-
+         
           <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="/html/services.html">Appointment</a>
@@ -27,66 +25,68 @@
           </div>
 
              <!-- The Modal -->
-<div id="id01" class="modal">
+<aside id="id01" class="modal">
 
   <!-- Modal Content -->
-  <form class="modal-content animate" action="">
-    <div class="imgcontainer">
-      <img src="/assets/png/userr.png" alt="Avatar" class="avatar">
-    </div>
-
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
-
-<div id="id02" class="modal">
- 
-  <form class="modal-content" action="">
-    <div class="container">
-      <h1>Sign Up</h1>
-      <p>Please fill in this form to create an account.</p>
-      <hr>
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <label for="psw-repeat"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
-      <label>
-        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-      </label>
-
-      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-      <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signup">Sign Up</button>
+  <div class="login-box">
+    <h2>Login</h2>
+    <form>
+      <div class="user-box">
+        <input type="text" name="" required="">
+        <label>Username</label>
       </div>
+      <div class="user-box">
+        <input type="password" name="" required="">
+        <label>Password</label>
+      </div>
+      <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Submit
+      </a>
+      <a onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Cancel
+      </a>
+    </form>
+  </div>
+
+</aside>
+
+<aside id="id02" class="modal">
+  
+  <div id="login-box">
+    <div class="left">
+      <h1>Sign up</h1>
+      
+      <input type="text" name="username" placeholder="Username" />
+      <input type="text" name="email" placeholder="E-mail" />
+      <input type="password" name="password" placeholder="Password" />
+      <input type="password" name="password2" placeholder="Retype password" />
+      
+      <input type="submit" name="signup_submit" value="Sign me up" />
     </div>
-  </form>
-</div>
+    
+    <div class="right">
+      <span class="loginwith">Sign in with<br />social network</span>
+      
+      <button class="social-signin facebook">Log in with facebook</button>
+      <button class="social-signin twitter">Log in with Twitter</button>
+      <button class="social-signin google">Log in with Google+</button>
+    </div>
+    <div class="or">OR</div>
+  </div>
+
+</aside>
 
       <!-- Use any element to open the sidenav -->
       <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+ 
       <script>
  function openNav() {
   document.getElementById("mySidenav").style.width = "100%";
@@ -96,8 +96,18 @@
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
+
+    // Get the modal
+var modal = document.getElementById('id02, id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
       </script>
-    
 
       <!-- mouse scroll -->
 <div class="mouse_scroll">
@@ -174,7 +184,7 @@ While your pet is at the grooming shed they will have the time to rest, stretch 
     
         </div>  
 
-    </div>
+      </header>
 
     <div class="parallax_background1">
 
