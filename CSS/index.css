@@ -1,5 +1,41 @@
+/* @media screen and (max-width: 480px){
+ 
+}
+@media  screen and (max-width: 430px) {
+
+
+  
+}
+@media  screen and (max-width: 428px) {
+ 
+   
+ }
+ @media  screen and (max-width: 414px) {
+ 
+   
+ }
+ @media  screen and (max-width: 412px) {
+
+   
+ }
+ @media  screen and (max-width: 393px) {
+
+   
+ }
+ @media  screen and (max-width: 384px) {
+ 
+   
+ }
+ @media  screen and (max-width: 360px) {
+  
+   
+ }*/
+
+
+
 body{
   background-color: white; /*#afd8f2*/
+  box-sizing: border-box !important;
 }
 .parallax_background{
     width: 100%;
@@ -11,31 +47,73 @@ body{
     position: relative;
     overflow: hidden;
 }
+@media screen and (max-width: 480px){
+  .parallax_background{
+    background-size: contain;
+    width: 480px;
+    height: 230px;
+  }
+}
 @media  screen and (max-width: 430px) {
- .parallax_background{
-  width: 430px;
-  height: 300px;
-  background: url(/assets/img/Whitepoodle.PNG);
-  background-size: contain;
 
+ .parallax_background{
+   background-size: contain;
+   width: 430px;
+   height: 230px;
  }
   
 }
 @media  screen and (max-width: 428px) {
   .parallax_background{
-   width: 428px;
-   height: 300px;
-   background: url(/assets/img/Whitepoodle.PNG);
-   background-size: contain;
+    background-size: contain;
+    width: 428px;
+    height: 230px;
+    background-position: top -50%;
  
   }
    
- }@media  screen and (max-width: 414px) {
+ }
+ @media  screen and (max-width: 414px) {
   .parallax_background{
-   width: 414px;
-   height: 300px;
-   background: url(/assets/img/Whitepoodle.PNG);
-   background-size: contain;
+    background-size: contain;
+    width: 414px;
+    height: 230px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 412px) {
+  .parallax_background{
+    background-size: contain;
+    height: 230px;
+    width: 412px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 393px) {
+  .parallax_background{
+    background-size: contain;
+    height: 230px;
+    width: 393px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 384px) {
+  .parallax_background{
+    background-size: contain;
+    height: 230px;
+    width: 384px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 360px) {
+  .parallax_background{
+    background-size: contain;
+    height: 230px;
+    width: 360px;
  
   }
    
@@ -50,6 +128,76 @@ body{
     position: relative;
     overflow: hidden;
 }
+@media screen and (max-width: 480px){
+  .parallax_background1{
+    height: 230px;
+    width: 480px;
+  }
+}
+@media  screen and (max-width: 430px) {
+
+ .parallax_background1{
+
+  height: 230px;
+  width: 430px
+
+ }
+  
+}
+@media  screen and (max-width: 428px) {
+  .parallax_background1{
+
+   height: 230px;
+   width: 428px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 414px) {
+  .parallax_background1{
+
+   height: 230px;
+   width: 414px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 412px) {
+  .parallax_background1{
+
+   height: 230px;
+   width: 412px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 393px) {
+  .parallax_background1{
+
+   height: 230px;
+   width: 393px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 384px) {
+  .parallax_background1{
+
+   height: 230px;
+   width: 384px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 360px) {
+  .parallax_background1{
+    
+   height: 230px;
+   width: 360px;
+ 
+  }
+   
+ }
 .parallax_background2{
     width: 100%;
     height: 50vh;
@@ -60,6 +208,77 @@ body{
     position: relative;
     overflow: hidden;
 }
+@media screen and (max-width: 480px){
+  .parallax_background2{
+    height: 230px;
+    width: 480px;
+  }
+}
+@media  screen and (max-width: 430px) {
+
+ .parallax_background2{
+
+  height: 230px;
+  width: 430px
+
+ }
+  
+}
+@media  screen and (max-width: 428px) {
+  .parallax_background2{
+
+   height: 230px;
+   width: 428px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 414px) {
+  .parallax_background2{
+
+   height: 230px;
+   width: 414px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 412px) {
+  .parallax_background2{
+
+   height: 230px;
+   width: 412px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 393px) {
+  .parallax_background2{
+
+   height: 230px;
+   width: 393px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 384px) {
+  .parallax_background2{
+
+   height: 230px;
+   width: 384px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 360px) {
+  .parallax_background2{
+    
+   height: 230px;
+   width: 360px;
+ 
+  }
+   
+ }
+
 .parallax_background3{
   width: 100%;
   height: 50vh;
@@ -70,6 +289,76 @@ body{
   position: relative;
   overflow: hidden;
 }
+@media screen and (max-width: 480px){
+  .parallax_background3{
+    height: 230px;
+    width: 480px;
+  }
+}
+@media  screen and (max-width: 430px) {
+
+ .parallax_background3{
+
+  height: 230px;
+  width: 430px
+
+ }
+  
+}
+@media  screen and (max-width: 428px) {
+  .parallax_background3{
+
+   height: 230px;
+   width: 428px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 414px) {
+  .parallax_background3{
+
+   height: 230px;
+   width: 414px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 412px) {
+  .parallax_background3{
+
+   height: 230px;
+   width: 412px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 393px) {
+  .parallax_background3{
+
+   height: 230px;
+   width: 393px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 384px) {
+  .parallax_background3{
+
+   height: 230px;
+   width: 384px;
+ 
+  }
+   
+ }
+ @media  screen and (max-width: 360px) {
+  .parallax_background3{
+    
+   height: 230px;
+   width: 360px;
+ 
+  }
+   
+ }
 .social-btn {
   display: flex;
   width: 150px;
@@ -557,7 +846,37 @@ body{
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
-
+@media  screen and (max-width: 430px) {
+  #login-box{
+    width: 430px;
+  }  
+  .or{
+    display: none;
+  }
+  .right{
+    margin-right: -9.5%;
+  }
+}
+@media  screen and (max-width: 428px) {
+  #login-box{
+    width: 428px;
+  }
+}
+@media  screen and (max-width: 414px) {
+  #login-box{
+    width: 414px;
+  }
+}
+@media  screen and (max-width: 393px) {
+  #login-box{
+    width: 393px;
+  }
+}
+@media  screen and (max-width: 390px) {
+  #login-box{
+    width: 390px;
+  }
+}
 .left {
   position: absolute;
   top: 0;
@@ -624,7 +943,6 @@ input[type="submit"]:active {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
   transition: 0.1s ease;
 }
-
 .or {
   position: absolute;
   top: 180px;
@@ -696,16 +1014,13 @@ button.social-signin.google {
   background: #DD4B39;
 }
 
-
-
-
 .aboutContainer{
+
   padding: 5%;
 }
 .aboutus{
   text-align: center;
 }
-
 
 button.contactbtn{
 	background-color: transparent;
@@ -840,19 +1155,33 @@ button.contactbtn{
   font-size: 16px;
   padding: 16px 32px;
 }
-.bussinesshours{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  justify-items: auto;
-  
-}
 .bussinesshours>div{
   width: 200px;
   height: 200px;
   background-color: white;
   margin-top: 100px;
 
+}
+.bussinesshours{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  justify-items: auto;
+}
+
+.hours{
+ margin-top: 30%;
+ margin-left: -60%;
+ display: flex;
+}
+
+
+.closedhr{
+  margin-top: 30%;
+  margin-left: -45%;
+}
+.x {
+  margin-left: -40%;
 }
 .monday, .tuesday, 
 .wednesday, .thursday, 
@@ -866,114 +1195,144 @@ margin-top: 50px;
 margin-left: 60px;
 
 }
-.hours{
- margin-top: 30%;
- margin-left: -60%;
-}
-.closedhr{
-  margin-top: 30%;
-  margin-left: -45%;
-}
-.x{
-  margin-left: -40%;
-}
-@media  screen and (max-width: 430px) {
-  
-  .bussinesshours{
- display: flex;
- flex-direction: column;
 
-    
-  }
+@media screen and (max-width: 480px){
   .bussinesshours>div{
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     background-color: white;
-  }
-  .monday, .tuesday, 
-.wednesday, .thursday, 
-.friday, .saturday,
-.sunday {
-
-display: flex;
-
-}
-.hours{
-display: flex;
-}
-}
-   
- }
- @media  screen and (max-width: 428px) {
+    margin-top: 100px;
   
+  }
   .bussinesshours{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    justify-content:space-between;
+    justify-items: auto;
   }
-  .bussinesshours>div{
-    
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  
-  }
-  .monday, .tuesday, 
-.wednesday, .thursday, 
-.friday, .saturday,
-.sunday {
-
-display: flex;
-
 }
-.hours{
-display: flex;
-}
-   
- }
- @media  screen and (max-width: 414px) {
-  
-  .bussinesshours{
-  display: flex;
-  flex-direction: column;
-  }
-  .bussinesshours>div{
-  
-   width: 50px;
-   height: 50px;
-   background-color: white;
-  
-  }
-  .monday, .tuesday, 
-  .wednesday, .thursday, 
-  .friday, .saturday,
-  .sunday {
-  display: flex;
-  
-  }
-  .hours{
-  display: flex;
-  }
- }
-
 @media  screen and (max-width: 430px) {
- .googleMaps{
-   width: 430px;
- }
+  .bussinesshours>div{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-top: 100px;
+  
+  }
+  .bussinesshours{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    justify-items: auto;
+  }
   
 }
 @media  screen and (max-width: 428px) {
- .googleMaps{
-width: 428px;
+  .bussinesshours>div{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-top: 100px;
+  
+  }
+  .bussinesshours{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    justify-items: auto;
+  }
+   
  }
+ @media  screen and (max-width: 414px) {
+  .bussinesshours>div{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-top: 100px;
+  
+  }
+  .bussinesshours{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    justify-items: auto;
+  }
+   
+ }
+ @media  screen and (max-width: 412px) {
+
+  .bussinesshours>div{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-top: 100px;
+  
+  }
+  .bussinesshours{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    justify-items: auto;
+  }
+ }
+ @media  screen and (max-width: 393px) {
+
+   
+ }
+ @media  screen and (max-width: 384px) {
+ 
+   
+ }
+ @media  screen and (max-width: 360px) {
+  
+   
+ }
+
+ @media screen and (max-width: 480px){
+  .googleMaps{
+    width: 480px;
+  }
+}
+@media  screen and (max-width: 430px) {
+
+  .googleMaps{
+    width: 430px;
+  }
   
 }
-@media  screen and (max-width: 414px) {
- .googleMaps{
+@media  screen and (max-width: 428px) {
+  .googleMaps{
+    width: 428px;
+  }
+   
+ }
+ @media  screen and (max-width: 414px) {
+  .googleMaps{
     width: 414px;
+  }
+   
  }
+ @media  screen and (max-width: 412px) {
+  .googleMaps{
+    width: 412px;
+  }
+   
+ }
+ @media  screen and (max-width: 393px) {
+  .googleMaps{
+    width: 393px;
+  }
+   
+ }
+ @media  screen and (max-width: 384px) {
+  .googleMaps{
+    width: 384px;
+  }
+   
+ }
+ @media  screen and (max-width: 360px) {
   
-}
-
-
-  
+  .googleMaps{
+    width: 360px;
+  }
+ }

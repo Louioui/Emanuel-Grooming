@@ -113,3 +113,49 @@
 .bubbles img:nth-child(28){
     animation-delay: 4.0s;
 }
+@media screen and (max-width: 480px){
+    .bubbles{
+     display: none;
+    }
+   }
+   @media  screen and (max-width: 430px) {
+    .bubbles{
+        display: none;
+       }
+   }
+   @media  screen and (max-width: 428px) {
+    .bubbles{
+        display: none;
+       }
+      
+    }
+    @media  screen and (max-width: 414px) {
+        .bubbles{
+            display: none;
+           }
+      
+    }
+    @media  screen and (max-width: 412px) {
+        .bubbles{
+            display: none;
+           }
+      
+    }
+    @media  screen and (max-width: 393px) {
+   
+        .bubbles{
+            display: none;
+           }
+    }
+    @media  screen and (max-width: 384px) {
+        .bubbles{
+            display: none;
+           }
+      
+    }
+    @media  screen and (max-width: 360px) {
+        .bubbles{
+            display: none;
+           }
+      
+    }
