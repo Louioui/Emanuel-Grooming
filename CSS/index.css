@@ -366,11 +366,9 @@ body{
   justify-content: space-between;
   padding-left: 30px;
   padding-right: 10px;
-  padding-top: 5px;
   padding-bottom: 5px;
   border: 1px;
   border-bottom-right-radius: 30px;
-  border-top-right-radius: 30px;
   margin-bottom: 10px;
   position: relative;
   left: -145px;
@@ -382,9 +380,10 @@ body{
 }
 
 .social {
-  position: fixed;
-  top: 100px;
+position: fixed;
+top: 100px;
 }
+
 .social a {
   text-decoration: none;
 }
@@ -410,7 +409,6 @@ body{
 
 .social-btn p {
   color: white;
-
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -1201,14 +1199,11 @@ margin-left: 60px;
     width: 200px;
     height: 200px;
     background-color: white;
-    margin-top: 100px;
   
   }
   .bussinesshours{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    justify-items: auto;
+    display:grid;
+    grid-template-columns: max-content;
   }
 }
 @media  screen and (max-width: 430px) {
@@ -1216,14 +1211,12 @@ margin-left: 60px;
     width: 200px;
     height: 200px;
     background-color: white;
-    margin-top: 100px;
   
   }
   .bussinesshours{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    justify-items: auto;
+    display:grid;
+    grid-template-columns: max-content;
+    
   }
   
 }
@@ -1232,14 +1225,12 @@ margin-left: 60px;
     width: 200px;
     height: 200px;
     background-color: white;
-    margin-top: 100px;
   
   }
   .bussinesshours{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    justify-items: auto;
+    display:grid;
+    grid-template-columns: max-content;
+    
   }
    
  }
@@ -1248,14 +1239,12 @@ margin-left: 60px;
     width: 200px;
     height: 200px;
     background-color: white;
-    margin-top: 100px;
   
   }
   .bussinesshours{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    justify-items: auto;
+    display:grid;
+    grid-template-columns: max-content;
+    
   }
    
  }
@@ -1265,7 +1254,6 @@ margin-left: 60px;
     width: 200px;
     height: 200px;
     background-color: white;
-    margin-top: 100px;
   
   }
   .bussinesshours{
